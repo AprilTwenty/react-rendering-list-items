@@ -27,7 +27,7 @@ function MovieList() {
 
             {
                 Movies.map((item, index) => {
-                    if ( item.title === "Assassin's Creed" || item.title === "Luke Cage") {
+                    if ( item.title === "Assassin's Creed" || item.title === "Luke Cage" || item.title === "Doctor Strange") {
                         return (
                             <div key={index} css={css`
                                 width: auto;
