@@ -1,0 +1,24 @@
+
+.movie-list-section{
+    display: flex;
+    justify-content: center;;
+}
+
+.box-genres {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    flex-wrap: wrap;
+
+}
+
+.genres { 
+    background-color: #EAAC99; 
+    border-radius: 10px;
+    margin-right: 5px;
+    padding: 5px;
+    display: inline-block;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
